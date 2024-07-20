@@ -7,6 +7,8 @@
   line-height: 1.5;
   font-weight: 400;
 
+  box-sizing: border-box;
+
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   
@@ -17,6 +19,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 .navlink{
   padding: 5px;
   border: solid 1px rgba(255, 255, 255, 0.219);
@@ -25,14 +29,14 @@
   justify-content: center;
 }
 
-/* body {
+.home {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
   position: relative; 
   overflow: hidden; }
 
-body::before {
+.home::before {
   content: "";
   position: absolute;
   top: 0;
@@ -41,16 +45,16 @@ body::before {
   height: 100%;
   background: url(./assets/doc_team.jpg) center;
   background-size: cover;
-  opacity: 0.2; 
+  opacity: 0.1; 
   z-index: -1; 
 }
 
-.root{
+.home_content{
 
   z-index: 1; 
   width: 100%;
   
-} */
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
